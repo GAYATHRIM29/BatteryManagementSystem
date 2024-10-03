@@ -1,0 +1,90 @@
+{% load static %}
+
+<!DOCTYPE html>
+<!--
+Template Name: Shiphile
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Copyright: OS-Templates.com
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+
+<head>
+  <title> SOH prediction </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="{% static 'layout/styles/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+</head>
+<style>
+  #pageintro {
+    display: flex;
+    justify-content: flex-end;
+    /* Move content to the right */
+    align-items: center;
+    /* Center vertically */
+    height: 100vh;
+    margin-left: 10px;
+    /* Set height to full viewport height */
+  }
+
+  .centered-content {
+    text-align: center;
+
+  }
+</style>
+
+<body id="top">
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- Top Background Image Wrapper -->
+  <div class="bgded overlay"
+    style="background-image:url('{% static 'images/demo/backgrounds/123.jpg' %}'); height:750px;">
+    <!-- ################################################################################################ -->
+
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+
+    <!-- ################################################################################################ -->
+    <div id="pageintro" class="hoc clear"
+      style="padding-bottom: 55%; padding-top: 23%; display: flex; justify-content: center; align-items: center;">
+      <!-- ################################################################################################ -->
+      <article>
+        <h3 class="heading"
+          style="padding-bottom: 5%; padding-top: 23%; display: flex; justify-content: center; align-items: center;">
+          Predicted Battery State
+          of Health </h3>
+
+        <footer><a class="btn" href="#">{{out}} <span style="color: white;">Percentage</span></a></footer>
+      </article>
+      <!-- ################################################################################################ -->
+    </div>
+    <!-- ################################################################################################ -->
+  </div>
+  <!-- End Top Background Image Wrapper -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+
+
+
+  <!-- ################################################################################################ -->
+
+  <!-- ################################################################################################ -->
+
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+  <!-- JAVASCRIPTS -->
+  <script src="{% static 'layout/scripts/jquery.min.js' %}"></script>
+  <script src="{% static 'layout/scripts/jquery.backtotop.js' %}"></script>
+  <script src="{% static 'layout/scripts/jquery.mobilemenu.js' %}"></script>
+</body>
+
+</html>

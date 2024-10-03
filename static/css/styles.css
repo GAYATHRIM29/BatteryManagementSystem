@@ -1,0 +1,64 @@
+/* styles.css */
+
+body {
+  background-size:cover;
+background-position:center; 
+  background-repeat: no-repeat;
+margin:0;
+padding:0;
+  
+
+
+}
+
+header {
+  font-size: 25px;
+  color: white;
+  padding: 20px;
+  text-weight: bold;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 30;
+  height: 30;
+}
+
+button:hover {
+  background-color: #005f7f;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.input-label {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.input-label input {
+  width: 70%; /* Adjust the width as needed */
+}
